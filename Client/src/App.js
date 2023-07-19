@@ -15,7 +15,7 @@ const FileUploader = () => {
 
       try {
         console.log("processing");
-        await axios.post("http://localhost:5000/upload", formData, {
+        await axios.post("http://localhost:2000/upload", formData, {
           headers: {
             "Content-Type": "multipart/form-data",
           },
